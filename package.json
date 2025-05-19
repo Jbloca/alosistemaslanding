@@ -6,6 +6,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+        "deploy": "npm run build && scp -r dist/* jorgebalarezo@147.79.110.161:/home/jorgebalarezo/alosistemasWeb",
     "astro": "astro"
   },
   "dependencies": {
