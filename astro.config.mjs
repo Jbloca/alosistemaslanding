@@ -1,8 +1,7 @@
-// @ts-check
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
 export default defineConfig({
-    site: 'https://jbloca.github.io/alosistemaslanding/',
-    base: 'alosistemaslanding',
+  output: 'static',
+  base: '/alosistemaslanding/', // nombre exacto de tu repo
+  site: 'https://jbloca.github.io/alosistemaslanding/',
 });
